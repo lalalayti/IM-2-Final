@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="css/signup-styles.css" />
+</head>
+<body>
+    <div class="signup-container">
+        <h2>Create an Account</h2>
+        <form>
+        <div class="form-group">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" placeholder="John" required>
+        </div>
+        <div class="form-group">
+            <label for="middlename">Middle Name</label>
+            <input type="text" id="middlename" placeholder="Michael">
+        </div>
+        <div class="form-group">
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" placeholder="Doe" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="example@mail.com" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="********" required>
+        </div>
+        <button class="submit-btn" type="submit"><a href="index.php">Sign Up</a></button>
+        </form>
+        <div class="footer-text">
+        Already have an account? <a href="login.php">Log in</a>
+        </div>
+        </div>
+</body>
+</html>

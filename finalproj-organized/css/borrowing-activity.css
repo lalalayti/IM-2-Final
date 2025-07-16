@@ -1,0 +1,6 @@
+.book-card { position:relative; }
+    .return-btn{ position:absolute; top:6px; right:6px;
+                    background:#4bb543; border:none; border-radius:4px;
+                    color:#fff; font-size:.75rem; padding:2px 6px; cursor:pointer; }
+    .return-btn:hover{ background:#3ea238; }
+    .dates { font-size:.8rem; margin-top:.3rem; }

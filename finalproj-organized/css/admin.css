@@ -1,0 +1,12 @@
+.flag-btn {
+    background-color: #d9534f;
+    color: white;
+    padding: 4px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.flag-btn:hover {
+    background-color: #c9302c;
+}
