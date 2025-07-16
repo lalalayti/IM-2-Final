@@ -1,6 +1,0 @@
-.book-card   { position:relative; }
-    .del-btn     { position:absolute; top:6px; right:6px;
-                    width:26px; height:26px; border:none;
-                    background:#ff6666; border-radius:50%;
-                    color:#fff; line-height:24px; cursor:pointer; }
-    .del-btn:hover { background:#ff4b4b; }
