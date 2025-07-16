@@ -1,0 +1,66 @@
+.book-card {
+  position: relative;
+  background: #fffaf5;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.15s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-3px);
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.book-card h3 {
+  font-size: 1rem;
+  margin: 0.5rem 0 0.25rem;
+  text-align: center;
+  color: #4a3424;
+}
+
+.book-card p {
+  font-size: 0.875rem;
+  color: #6a5240;
+  margin: 0;
+  text-align: center;
+  font-style: italic;
+}
+
+.del-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 26px;
+  height: 26px;
+  border: none;
+  background: #a8583b;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.del-btn:hover {
+  background: #864731;
+}
+
+
+
+
+
+
+
+
