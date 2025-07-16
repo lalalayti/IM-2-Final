@@ -92,7 +92,7 @@ $borrowedBooks = $mysqli->query("SELECT COUNT(*) AS borrowed FROM borrowed_books
     <script src="js/charts.js"></script>
 
 <?php
-$stmt->close();
+
 $mysqli->close();
 ?>
 </body>
