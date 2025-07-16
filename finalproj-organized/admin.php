@@ -43,13 +43,6 @@ $borrowedBooks = $mysqli->query("SELECT COUNT(*) AS borrowed FROM borrowed_books
             <div class="top"><h1 style="margin:10px; margin-left:-400px; margin-top:20px;">Dashboard</h1></div>
         </section>
 
-       
-        <section style="padding: 30px 60px;">
-            <h2><b>Library Book Statistics</b></h2>
-            <canvas id="bookStatsChart" width="400" height="300"></canvas>
-        </section>
-
-       
         <section style="padding: 20px 60px;">
             <h2><b>List of Users</b></h2>
             <table border="1" cellpadding="8" cellspacing="0" style="margin-top: 10px; width: 100%; border-collapse: collapse;">
@@ -79,6 +72,15 @@ $borrowedBooks = $mysqli->query("SELECT COUNT(*) AS borrowed FROM borrowed_books
                 </tbody>
             </table>
         </section>
+
+
+        <section style="padding: 30px 60px;">
+            <h2><b>Library Book Statistics</b></h2>
+            <canvas id="bookStatsChart" width="400" height="300"></canvas>
+        </section>
+
+       
+       
     </main>
 
    
